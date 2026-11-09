@@ -1,0 +1,7 @@
+{
+  "CLAW.title": "Claw",
+  "CLAW.description": "Deal {Damage:diff()} damage.\nIncrease the damage of ALL your cards containing \"Claw\" by {Increase:diff()}.",
+  "ALECSAA-CLAW_MACHINE.title" :  "Claw Machine", 
+  "ALECSAA-CLAW_MACHINE.description" : "Deal {Damage:diff()} damage to a random enemy {Repeat:diff()} times. \nPut a random 0 {energyPrefix:energyIcons(1)} card from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold]."
+  
+}
