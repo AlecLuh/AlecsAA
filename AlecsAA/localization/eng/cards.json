@@ -1,14 +1,21 @@
 {
-  "CLAW.title": "Claw",
   "CLAW.description": "Deal {Damage:diff()} damage.\nIncrease the damage of ALL your cards containing \"Claw\" by {Increase:diff()}.",
-  "ALECSAA-CLAW_MACHINE.title" :  "Claw Machine", 
+  "CLAW.title": "Claw",
   "ALECSAA-CLAW_MACHINE.description" : "Deal {Damage:diff()} damage to a random enemy {Repeat:diff()} times. \nPut a random 0 {energyPrefix:energyIcons(1)} card from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold].",
-  "ALECSAA-CONJURE.title" :  "Conjure",
+  "ALECSAA-CLAW_MACHINE.title" :  "Claw Machine", 
   "ALECSAA-CONJURE.description" :  "Put ALL [gold]Souls[/gold] from your\n[gold]Draw Pile[/gold] and [gold]Discard Pile[/gold]\ninto your [gold]Hand[/gold].",
-  "ALECSAA-HAMMERS.title": "HAMMERS!!",
+  "ALECSAA-CONJURE.title" :  "Conjure",
   "ALECSAA-HAMMERS.description" : "Choose {Cards:diff()} {Cards:plural:card|cards} in your\n[gold]Discard Pile[/gold] to [gold]Transform[/gold] into\n[gold]{Cards:plural:{IfUpgraded:show:Minion Dive Bomb+|Minion Dive Bomb}[/gold]|{IfUpgraded:show:Minion Dive Bombs+|Minion Dive Bombs}[/gold]}.",
-  "ALECSAA-MINION_REINFORCEMENT.title" : "Minion Reinforcement",
+  "ALECSAA-HAMMERS.title": "HAMMERS!!",
   "ALECSAA-MINION_REINFORCEMENT.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Forge[/gold] {Forge:diff()}.",
-  "ALECSAA-FOLLOWUP_FLICK.title" : "Follow-Up Flick",
-  "ALECSAA-FOLLOWUP_FLICK.description" : "[gold]Osty[/gold] deals {OstyDamage:diff()} damage."
+  "ALECSAA-MINION_REINFORCEMENT.title" : "Minion Reinforcement",
+  "ALECSAA-FLICK.description" : "[gold]Osty[/gold] deals {OstyDamage:diff()} damage.",
+  "ALECSAA-FLICK.title" : "Flick",
+  "ALECSAA-TEMPERED_GLASS.description" : "Glass does not lose damage\nat or below {TemperedGlassPower:diff()}.",
+  "ALECSAA-TEMPERED_GLASS.title" : "Tempered Glass",
+  "ALECSAA-TURBULENT_TAKEOFF.description" : "Deal {Damage:diff()} damage twice.\nAdd 2 [gold]Debris[/gold] into your\n[gold]Hand[/gold].",
+  "ALECSAA-TURBULENT_TAKEOFF.title" : "Turbulent Takeoff",
+  "ALECSAA-VITRIFY.description" : "{IfUpgraded:show:[gold]Evoke[/gold]|Remove} all your Orbs.\nFor each Orb {IfUpgraded:show:[gold]Evoked[/gold]|removed},\n[gold]Channel[/gold] 1 [gold]Glass[/gold].",
+  "ALECSAA-VITRIFY.title" : "Vitrify"
+
 }
