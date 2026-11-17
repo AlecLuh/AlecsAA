@@ -12,6 +12,10 @@ namespace AlecsAA.AlecsAACode.Cards;
 [Pool(typeof(TokenCardPool))]
 public class Flick() : AlecsAACard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
+    protected override bool ShouldGlowRedInternal => Owner.IsOstyMissing;
+
+    protected override HashSet<CardTag> CanonicalTags => [CardTag.OstyAttack];
+    
     protected override IEnumerable<DynamicVar> CanonicalVars => [new OstyDamageVar(3m, ValueProp.Move)];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];

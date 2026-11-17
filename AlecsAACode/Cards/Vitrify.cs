@@ -27,6 +27,7 @@ public class Vitrify() : AlecsAACard(0, CardType.Skill, CardRarity.Uncommon, Tar
         
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
         
+        // Empty all current orbs.
         for (int i = 0; i < orbCount; i++)
         {
             if (IsUpgraded)
@@ -41,6 +42,8 @@ public class Vitrify() : AlecsAACard(0, CardType.Skill, CardRarity.Uncommon, Tar
                 firstOrb.RemoveInternal();
             }
         }
+        
+        // Fill all emptied orbs.
         for (int i = 0; i < orbCount; i++)
         { 
             await OrbCmd.Channel<GlassOrb>(choiceContext, Owner);

@@ -1,0 +1,13 @@
+{
+  "ALECSAA-HANDY.description" : "When this card is played, add a [gold]Flick[/gold] into your [gold]Hand[/gold].",
+  "ALECSAA-HANDY.extraCardText" : "Add a Flick into your\nHand.",
+  "ALECSAA-HANDY.title" : "Handy",
+  "ALECSAA-HEAVY.description" : "Strength affects this card 2 additional times.",
+  "ALECSAA-HEAVY" : "Heavy",
+  "ALECSAA-ROLLBACK.description" : "The first time this card enters the Discard Pile each turn, return it to your [gold]Hand[/gold].",
+  "ALECSAA-ROLLBACK.title" : "Rollback",
+  "ALECSAA-STAR_POWERED.description" : "This card costs {Stars:starIcons()} instead of {Energy:energyIcons()}",
+  "ALECSAA-STAR_POWERED.title" : "Star Powered",
+  "ALECSAA-UNDERHANDED.description" : "This card has [gold]Sly[/gold].",
+  "ALECSAA-UNDERHANDED.title" : "Underhanded"
+}
