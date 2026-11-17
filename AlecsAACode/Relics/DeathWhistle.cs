@@ -30,7 +30,7 @@ public class DeathWhistle() : AlecsAARelic
     public override async Task AfterObtained()
     {
         CardSelectorPrefs prefs =
-            new CardSelectorPrefs(CardSelectorPrefs.EnchantSelectionPrompt, 0, base.DynamicVars.Cards.IntValue)
+            new CardSelectorPrefs(CardSelectorPrefs.EnchantSelectionPrompt, 0, DynamicVars.Cards.IntValue)
             {
                 Cancelable = false,
                 RequireManualConfirmation = true
