@@ -6,7 +6,7 @@
   "ALECSAA-HEAVY" : "Heavy",
   "ALECSAA-ROLLBACK.description" : "The first time this card enters the Discard Pile each turn, return it to your [gold]Hand[/gold].",
   "ALECSAA-ROLLBACK.title" : "Rollback",
-  "ALECSAA-STAR_POWERED.description" : "This card costs {Stars:starIcons()} instead of {Energy:energyIcons()}",
+  "ALECSAA-STAR_POWERED.description" : "This card costs {Stars:starIcons()} instead of {energyPrefix:energyIcons(1)}.",
   "ALECSAA-STAR_POWERED.title" : "Star Powered",
   "ALECSAA-UNDERHANDED.description" : "This card has [gold]Sly[/gold].",
   "ALECSAA-UNDERHANDED.title" : "Underhanded"
