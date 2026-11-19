@@ -8,7 +8,7 @@ public class StarPowered : AlecsAAEnchantment
 {
     public override bool ShowAmount => false;
 
-    // Variable declared so {Stars} placeholder for star icon is accessible in localization file
+    // Variable declared so placeholder for star icon is accessible in localization file.
     protected override IEnumerable<DynamicVar> CanonicalVars => [new StarsVar(1)];
     
     public override bool CanEnchant(CardModel card)
