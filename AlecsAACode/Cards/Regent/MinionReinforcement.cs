@@ -6,7 +6,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Regent;
 
 [Pool(typeof(TokenCardPool))]
 public class MinionReinforcement() : AlecsAACard(0, CardType.Skill, CardRarity.Common, TargetType.Self)

@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Regent;
 
 [Pool(typeof(RegentCardPool))]
 public class Hammers() : AlecsAACard(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)

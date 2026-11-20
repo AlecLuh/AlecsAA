@@ -13,8 +13,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace AlecsAA.AlecsAACode.Cards;
-
+namespace AlecsAA.AlecsAACode.Cards.Defect;
 
 [Pool(typeof(DefectCardPool))]
 public class ClawMachine() : AlecsAACard(2, CardType.Attack, CardRarity.Uncommon, TargetType.RandomEnemy), IBuffableFromClawPlay
@@ -50,7 +49,7 @@ public class ClawMachine() : AlecsAACard(2, CardType.Attack, CardRarity.Uncommon
         var cardModels = pile.Cards.Where(Filter).ToList();
         if (cardModels.Any())
         {
-            CardModel card = cardModels.UnstableShuffle(Owner.RunState.Rng.CombatCardSelection).First();
+            CardModel card = cardModels.StableShuffle(Owner.RunState.Rng.CombatCardSelection).First();
             await CardPileCmd.Add(card, PileType.Hand);
         }
     }

@@ -9,7 +9,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Orbs;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Defect;
 
 [Pool(typeof(DefectCardPool))]
 public class Vitrify() : AlecsAACard(0, CardType.Skill, CardRarity.Uncommon, TargetType.Self)

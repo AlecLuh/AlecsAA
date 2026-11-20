@@ -1,5 +1,4 @@
-using AlecsAA.AlecsAACode.Cards;
-
+using AlecsAA.AlecsAACode.Cards.Necrobinder;
 using AlecsAA.AlecsAACode.Enchantments;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.CardSelection;

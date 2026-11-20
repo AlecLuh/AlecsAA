@@ -1,6 +1,6 @@
 {
   "CLAW.description": "Deal {Damage:diff()} damage.\nIncrease the damage of ALL your cards containing \"Claw\" by {Increase:diff()}.",
-  "CLAW.title": "Claw",
+  "FERAL.title": "Ferality",
   "ALECSAA-CLAW_MACHINE.description" : "Deal {Damage:diff()} damage to a random enemy {Repeat:diff()} times. \nPut a random 0 {energyPrefix:energyIcons(1)} card from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold].",
   "ALECSAA-CLAW_MACHINE.title" :  "Claw Machine", 
   "ALECSAA-CONJURE.description" :  "Put ALL [gold]Souls[/gold] from your\n[gold]Draw Pile[/gold] and [gold]Discard Pile[/gold]\ninto your [gold]Hand[/gold].",
@@ -9,7 +9,7 @@
   "ALECSAA-DOPPELGANGER.title" : "Doppelganger",
   "ALECSAA-FREEFALL.description" : "Discard your [gold]Draw Pile[/gold].\nTrigger any [gold]Sly[/gold] effects.",
   "ALECSAA-FREEFALL.title" : "Freefall",
-  "ALECSAA-HAMMERS.description" : "Choose {Cards:diff()} {Cards:plural:card|cards} in your\n[gold]Discard Pile[/gold] to [gold]Transform[/gold] into\n[gold]{Cards:plural:{IfUpgraded:show:Minion Dive Bomb+|Minion Dive Bomb}[/gold]|{IfUpgraded:show:Minion Dive Bombs+|Minion Dive Bombs}[/gold]}.",
+  "ALECSAA-HAMMERS.description" : "Choose {Cards:diff()} {Cards:plural:card|cards} in your\n[gold]Discard Pile[/gold] to [gold]Transform[/gold] into\n[gold]{Cards:plural:{IfUpgraded:show:Minion Reinforcement+|Minion Reinforcement}[/gold]|{IfUpgraded:show:Minion Dive Bombs+|Minion Dive Bombs}[/gold]}.",
   "ALECSAA-HAMMERS.title": "HAMMERS!!",
   "ALECSAA-MINION_REINFORCEMENT.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Forge[/gold] {Forge:diff()}.",
   "ALECSAA-MINION_REINFORCEMENT.title" : "Minion Reinforcement",

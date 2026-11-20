@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Orbs;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Defect;
 
 [Pool(typeof(DefectCardPool))]
 public class TemperedGlass() : AlecsAACard(0, CardType.Power, CardRarity.Uncommon, TargetType.Self)
