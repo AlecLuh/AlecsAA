@@ -1,3 +1,5 @@
 {
-  
+  "ALECSAA-TEMPERED_GLASS_POWER.description" : "Glass does not lose damage at or below [blue]2[/blue]",
+  "ALECSAA-TEMPERED_GLASS_POWER.smartDescription" : "Glass does not lose damage at or below [blue]{Amount}[/blue]",
+  "ALECSAA-TEMPERED_GLASS_POWER.title" : "Tempered Glass"
 }

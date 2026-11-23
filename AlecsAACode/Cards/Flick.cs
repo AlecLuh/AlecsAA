@@ -10,7 +10,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace AlecsAA.AlecsAACode.Cards;
 
 [Pool(typeof(TokenCardPool))]
-public class FollowupFlick() : AlecsAACard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public class Flick() : AlecsAACard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new OstyDamageVar(3m, ValueProp.Move)];
 

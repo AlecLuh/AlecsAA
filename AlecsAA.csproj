@@ -63,8 +63,6 @@
 
     <ItemGroup>
         <Folder Include="AlecsAACode\Cards\Interfaces\" />
-        <Folder Include="AlecsAACode\Cards\Silent Cards\" />
-        <Folder Include="AlecsAA\images\card_portraits\beta\" />
         <Folder Include="AlecsAA\images\powers\big\"/>
         <Folder Include="AlecsAA\images\relics\big\"/>
     </ItemGroup>
