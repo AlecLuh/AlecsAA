@@ -64,7 +64,6 @@
     <ItemGroup>
         <Folder Include="AlecsAACode\Cards\Interfaces\" />
         <Folder Include="AlecsAA\images\powers\big\"/>
-        <Folder Include="AlecsAA\images\relics\big\"/>
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

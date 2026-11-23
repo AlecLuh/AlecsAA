@@ -10,7 +10,8 @@ using MegaCrit.Sts2.Core.Models.Orbs;
 
 namespace AlecsAA.AlecsAACode.Cards.Defect;
 
-[Pool(typeof(DefectCardPool))]
+// Token Pool until coded so it doesn't get into runs.
+[Pool(typeof(TokenCardPool))]
 public class TemperedGlass() : AlecsAACard(0, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<TemperedGlassPower>(2m)];

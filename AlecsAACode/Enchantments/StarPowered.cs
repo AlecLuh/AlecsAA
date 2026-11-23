@@ -13,6 +13,10 @@ public class StarPowered : AlecsAAEnchantment
     
     public override bool CanEnchant(CardModel card)
     {
+        if (card.Enchantment != null)
+        {
+            return false;
+        }
         return card.EnergyCost.Canonical > 0 || card.EnergyCost.CostsX;
     }
 }

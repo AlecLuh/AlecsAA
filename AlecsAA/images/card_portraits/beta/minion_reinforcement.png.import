@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx3flabx3prp4"
-path="res://.godot/imported/claw_machine.png-709e6ac8845ae3f6bf6925d312ac2aec.ctex"
+uid="uid://coynyx4wu51ql"
+path="res://.godot/imported/minion_reinforcement.png-eceb20da2a45816097821c625620175c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AlecsAA/images/card_portraits/claw_machine.png"
-dest_files=["res://.godot/imported/claw_machine.png-709e6ac8845ae3f6bf6925d312ac2aec.ctex"]
+source_file="res://AlecsAA/images/card_portraits/beta/minion_reinforcement.png"
+dest_files=["res://.godot/imported/minion_reinforcement.png-eceb20da2a45816097821c625620175c.ctex"]
 
 [params]
 

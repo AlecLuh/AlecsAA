@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 
 namespace AlecsAA.AlecsAACode.Enchantments;
 
-public sealed class Handy : AlecsAAEnchantment
+public class Handy : AlecsAAEnchantment
 {
     public override bool HasExtraCardText => true;
     

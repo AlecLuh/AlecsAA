@@ -5,7 +5,7 @@ using MegaCrit.Sts2.Core.HoverTips;
 
 namespace AlecsAA.AlecsAACode.Enchantments;
 
-public sealed class Underhanded : AlecsAAEnchantment
+public class Underhanded : AlecsAAEnchantment
 {
     public override bool ShowAmount => false;
 

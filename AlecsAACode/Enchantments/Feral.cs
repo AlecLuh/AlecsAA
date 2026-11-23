@@ -12,11 +12,11 @@ public class Feral : AlecsAAEnchantment
     
     public override bool ShowAmount => false;
 
-    public override bool CanEnchant(CardModel card)
+    public override bool CanEnchantCardType(CardType cardType)
     {
-        return card.Type == CardType.Attack;
+        return cardType == CardType.Attack;
     }
-    
+
     public override CardLocation ModifyCardPlayResultLocation(CardModel card, bool isAutoPlay, ResourceInfo resources, CardLocation location)
     {
         if (card != Card || card.IsDupe || _usedThisTurn)
