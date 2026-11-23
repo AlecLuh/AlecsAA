@@ -1,7 +1,9 @@
 using AlecsAA.AlecsAACode.Enchantments;
 using HarmonyLib;
+using MegaCrit.Sts2.addons.mega_text;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Nodes.Cards;
 
 namespace AlecsAA.AlecsAACode.Other.Patches;
 
@@ -9,19 +11,20 @@ public static class StarPoweredConversionPatches
 {
     static bool IsStarPowered(CardModel card) => card?.Enchantment is StarPowered;
     static bool IsXCost(CardModel card) => card.CanonicalInstance.EnergyCost.CostsX;
+    [ThreadStatic] static bool _readingModifiedEnergy;
 
-    // Adjust energy value to be 0 if enchanted with Star Powered.
+    // Adjusts energy value to be 0 if enchanted with Star Powered.
     [HarmonyPatch(typeof(CardEnergyCost), nameof(CardEnergyCost.GetWithModifiers))]
     public static class EnergyCostPatch
     {
         static void Postfix(CardModel ____card, ref int __result)
         {
-            if (IsStarPowered(____card))
+            if (IsStarPowered(____card) && !_readingModifiedEnergy)
                 __result = 0;
         }
     }
     
-    // For non- X-cost cards, use original energy cost to determine new star cost.
+    // For non X-cost cards, uses original energy cost to determine new star cost.
     [HarmonyPatch(typeof(CardModel), nameof(CardModel.CurrentStarCost), MethodType.Getter)]
     public static class CurrentStarCostPatch
     {
@@ -30,6 +33,12 @@ public static class StarPoweredConversionPatches
             int energyCost = __instance.EnergyCost.Canonical;
             if (IsStarPowered(__instance) && !IsXCost(__instance) && energyCost > 0)
             {
+                // While resolving energy cost with modifiers, causes a
+                // thread pause so energy won't be set to 0 by EnergyCostPatch.
+                _readingModifiedEnergy = true;
+                energyCost = __instance.EnergyCost.GetWithModifiers(CostModifiers.All);
+                _readingModifiedEnergy = false;
+                
                 // Default star cost for cards with no star cost is -1.
                 // This clamps the min up to 0 before adding energyCost.
                 __result = Math.Max(0, __instance.BaseStarCost) + energyCost;
@@ -37,20 +46,20 @@ public static class StarPoweredConversionPatches
         }
     }
 
-    // Adjust HasEnergyCostX to be false if enchanted with Star Powered.
+    // Adjusts HasEnergyCostX to be false if enchanted with Star Powered.
     [HarmonyPatch(typeof(CardEnergyCost), nameof(CardEnergyCost.CostsX), MethodType.Getter)]
     public static class HasEnergyCostXPatch
     {
-        static void Postfix(CardModel __card, ref bool  __result)
+        static void Postfix(CardModel ____card, ref bool  __result)
         {
-            if (IsStarPowered(__card) && __result)
+            if (IsStarPowered(____card) && __result)
             {
                 __result = false;
             }
         }
     }
 
-    // Adjust HasStarCostX to be true if X energy-cost card is enchanted with Star Powered.
+    // Adjusts HasStarCostX to be true if X energy-cost card is enchanted with Star Powered.
     [HarmonyPatch(typeof(CardModel), nameof(CardModel.HasStarCostX), MethodType.Getter)]
     public static class HasStarCostXPatch
     {
@@ -75,6 +84,20 @@ public static class StarPoweredConversionPatches
                 return false;
             }
             return true;
+        }
+    }
+    
+    // Corrects visual on X-Cost energy cards so the energy cost doesn't continue to appear with 'X'.
+    [HarmonyPatch(typeof(NCard), "UpdateEnergyCostVisuals")]
+    public static class XEnergyCostVisualsPatch
+    {
+        static void Postfix(NCard __instance, MegaLabel ____energyLabel)
+        {
+            CardModel card = __instance.Model;
+            if (IsStarPowered(card) && IsXCost(card))
+            {
+                ____energyLabel.SetTextAutoSize("0");
+            }
         }
     }
 }
