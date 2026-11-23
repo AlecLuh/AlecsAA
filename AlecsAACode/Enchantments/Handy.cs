@@ -11,6 +11,8 @@ namespace AlecsAA.AlecsAACode.Enchantments;
 public sealed class Handy : AlecsAAEnchantment
 {
     public override bool HasExtraCardText => true;
+    
+    public override bool ShowAmount => false;
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromCardWithCardHoverTips<Flick>();
     
