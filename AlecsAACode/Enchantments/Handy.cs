@@ -1,4 +1,4 @@
-using AlecsAA.AlecsAACode.Cards;
+using AlecsAA.AlecsAACode.Cards.Necrobinder;
 using AlecsAA.AlecsAACode.Relics;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;

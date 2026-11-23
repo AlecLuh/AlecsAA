@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Regent;
 
 [Pool(typeof(RegentCardPool))]
 public class TurbulentTakeoff() : AlecsAACard(1, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)

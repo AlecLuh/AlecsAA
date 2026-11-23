@@ -5,7 +5,7 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Cards;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Necrobinder;
 
 [Pool(typeof(NecrobinderCardPool))]
 public class Conjure() : AlecsAACard(0, CardType.Skill, CardRarity.Uncommon, TargetType.Self)

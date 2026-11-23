@@ -41,5 +41,4 @@ public class WristBlade() : AlecsAARelic
             CardCmd.Preview(item);
         }
     }
-
 }

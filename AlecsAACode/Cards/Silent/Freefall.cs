@@ -7,7 +7,7 @@ using MegaCrit.Sts2.Core.Hooks;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Silent;
 
 [Pool(typeof(SilentCardPool))]
 public class Freefall() : AlecsAACard(2, CardType.Skill, CardRarity.Rare, TargetType.Self)

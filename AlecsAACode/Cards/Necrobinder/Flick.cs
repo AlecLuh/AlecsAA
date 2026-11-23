@@ -7,7 +7,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Monsters;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace AlecsAA.AlecsAACode.Cards;
+namespace AlecsAA.AlecsAACode.Cards.Necrobinder;
 
 [Pool(typeof(TokenCardPool))]
 public class Flick() : AlecsAACard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
