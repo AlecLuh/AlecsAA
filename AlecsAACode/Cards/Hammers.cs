@@ -13,9 +13,9 @@ namespace AlecsAA.AlecsAACode.Cards;
 [Pool(typeof(RegentCardPool))]
 public class Hammers() : AlecsAACard(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromCard<MinionReinforcement>(IsUpgraded)];
-
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(2)];
+    
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromCard<MinionReinforcement>(IsUpgraded)];
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

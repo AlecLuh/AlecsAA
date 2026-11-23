@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmyeu0xm3mf6r"
-path="res://.godot/imported/flick.png-37149c7a387338f35f1b9efabad43208.ctex"
+path="res://.godot/imported/flick.png-e3ce213e22ff8c114062a6cb74e6acfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AlecsAA/images/card_portraits/big/flick.png"
-dest_files=["res://.godot/imported/flick.png-37149c7a387338f35f1b9efabad43208.ctex"]
+source_file="res://AlecsAA/images/card_portraits/flick.png"
+dest_files=["res://.godot/imported/flick.png-e3ce213e22ff8c114062a6cb74e6acfb.ctex"]
 
 [params]
 
