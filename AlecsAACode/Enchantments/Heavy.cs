@@ -1,6 +1,6 @@
 using AlecsAA.AlecsAACode.Relics;
 using MegaCrit.Sts2.Core.Entities.Cards;
-using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 
@@ -9,6 +9,8 @@ namespace AlecsAA.AlecsAACode.Enchantments;
 public class Heavy : AlecsAAEnchantment
 {
     public override bool ShowAmount => true;
+    
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<StrengthPower>()];
 
     public override bool CanEnchantCardType(CardType cardType)
     {

@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 
 namespace AlecsAA.AlecsAACode.Relics;
@@ -24,8 +25,12 @@ public class ChampionBelt() : AlecsAARelic
     ];
 
     public override bool HasUponPickupEffect => true;
-    
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromEnchantment<Heavy>(DynamicVars["HeavyAmount"].IntValue);
+
+    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
+    [
+        .. HoverTipFactory.FromEnchantment<Heavy>(DynamicVars["HeavyAmount"].IntValue),
+        HoverTipFactory.FromPower<StrengthPower>()
+    ];
     
     public override async Task AfterObtained()
     {

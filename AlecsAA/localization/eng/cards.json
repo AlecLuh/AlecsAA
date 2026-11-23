@@ -9,7 +9,7 @@
   "ALECSAA-DOPPELGANGER.title" : "Doppelganger",
   "ALECSAA-FREEFALL.description" : "Discard your [gold]Draw Pile[/gold].\nTrigger any [gold]Sly[/gold] effects.",
   "ALECSAA-FREEFALL.title" : "Freefall",
-  "ALECSAA-HAMMERS.description" : "Choose {Cards:diff()} {Cards:plural:card|cards} in your\n[gold]Discard Pile[/gold] to [gold]Transform[/gold] into\n[gold]{Cards:plural:{IfUpgraded:show:Minion Reinforcement+|Minion Reinforcement}[/gold]|{IfUpgraded:show:Minion Dive Bombs+|Minion Dive Bombs}[/gold]}.",
+  "ALECSAA-HAMMERS.description" : "Choose {Cards:diff()} {Cards:plural:card|cards} in your\n[gold]Discard Pile[/gold] to [gold]Transform[/gold] into\n[gold]{Cards:plural:{IfUpgraded:show:Minion Reinforcement+|Minion Reinforcement}[/gold]|{IfUpgraded:show:Minion Reinforcements+|Minion Reinforcements}[/gold]}.",
   "ALECSAA-HAMMERS.title": "HAMMERS!!",
   "ALECSAA-MINION_REINFORCEMENT.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Forge[/gold] {Forge:diff()}.",
   "ALECSAA-MINION_REINFORCEMENT.title" : "Minion Reinforcement",
