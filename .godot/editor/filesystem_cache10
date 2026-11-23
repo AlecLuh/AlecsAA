@@ -42,11 +42,13 @@ underhanded.png::CompressedTexture2D::2235646240715662257::1795308923::179531338
 power.png::CompressedTexture2D::1395978561429361607::1789076470::1789078217::1::::<><><>0<>0<>c802084eda8aa30356fd79f972a13582<>res://.godot/imported/power.png-9cc753b9c5b788f7e3ec0678d404e019.ctex::
 ::res://AlecsAA/images/powers/big/::1789078217
 power.png::CompressedTexture2D::8890561489721951411::1789076470::1789078217::1::::<><><>0<>0<>c72856d07ac4ee7ddaea0cad92e921e6<>res://.godot/imported/power.png-222331f99edf8536c5006ff1f4c4f0b3.ctex::
-::res://AlecsAA/images/relics/::1795313380
+::res://AlecsAA/images/relics/::1795326881
 champion_belt.png::CompressedTexture2D::1565196698267579135::1795313025::1795313380::1::::<><><>0<>0<>ad0249a79c7d069aabb0766e334b7d6b<>res://.godot/imported/champion_belt.png-c8561b72fb94e4bc2dcfea716c508814.ctex::
 champion_belt_outline.png::CompressedTexture2D::8437944484216083827::1795313169::1795313380::1::::<><><>0<>0<>c3fc2211db4e17c75507618f1e26ae02<>res://.godot/imported/champion_belt_outline.png-7cdf707936be2fc4580e6f6ca58ab88a.ctex::
-death_whistle.png::CompressedTexture2D::1060181665789583281::1795313019::1795313380::1::::<><><>0<>0<>d5c96cf166066e056d8a8bf5b300d7a5<>res://.godot/imported/death_whistle.png-a1df6c32c689f1703703d5ae7f443ccc.ctex::
-death_whistle_outline.png::CompressedTexture2D::5703683045093443349::1795313216::1795313380::1::::<><><>0<>0<>f876bea8ac3288aae6e16b3351e42205<>res://.godot/imported/death_whistle_outline.png-d252c0cbc1cc474b3cc2289361640563.ctex::
+death_whistle(toosmall).png::CompressedTexture2D::1060181665789583281::1795313019::1795326902::1::::<><><>0<>0<>6ef8be1a160b3f4104a9d071befc8db8<>res://.godot/imported/death_whistle(toosmall).png-174c700af875cff45af460124b9ace98.ctex::
+death_whistle.png::CompressedTexture2D::8954031477035017528::1795326735::1795326902::1::::<><><>0<>0<>34516cf14d8781bcc44c6da35094fac8<>res://.godot/imported/death_whistle.png-a1df6c32c689f1703703d5ae7f443ccc.ctex::
+death_whistle_outline(toosmall).png::CompressedTexture2D::5703683045093443349::1795313216::1795326902::1::::<><><>0<>0<>afb1c58c9e67d442409bb086a409a80b<>res://.godot/imported/death_whistle_outline(toosmall).png-5a2346d9949e79460160b680ed571d44.ctex::
+death_whistle_outline.png::CompressedTexture2D::2291038990033136038::1795326769::1795326902::1::::<><><>0<>0<>bf225340984a571183b1da3916022c9e<>res://.godot/imported/death_whistle_outline.png-d252c0cbc1cc474b3cc2289361640563.ctex::
 duvu_doll.png::CompressedTexture2D::1061561718372100305::1795312991::1795313380::1::::<><><>0<>0<>0f3d89bc752a96ec458db24cfa80d31c<>res://.godot/imported/duvu_doll.png-7ef18c4638774c19a8a9e0ecde8ac45f.ctex::
 duvu_doll_outline.png::CompressedTexture2D::6248288797577284849::1795313211::1795313380::1::::<><><>0<>0<>b2a70290c85903a3415e7712502c70d3<>res://.godot/imported/duvu_doll_outline.png-156a67664c30d71d97da44ec0fd47103.ctex::
 matryoshka.png::CompressedTexture2D::5514787043111226994::1795312984::1795313380::1::::<><><>0<>0<>bf083de9292076c6a5d1bacd41168317<>res://.godot/imported/matryoshka.png-b787b87fe06d9d9503ab8226cd6152f5.ctex::
@@ -59,10 +61,11 @@ volatile_memory.png::CompressedTexture2D::1940362944805694230::1795312971::17953
 volatile_memory_outline.png::CompressedTexture2D::2129544686795937195::1795313191::1795313380::1::::<><><>0<>0<>11ffae674777602028cc8de0442be77d<>res://.godot/imported/volatile_memory_outline.png-153ce0ed3bb55ef2530d2159c279caf1.ctex::
 wrist_blade.png::CompressedTexture2D::2808683111512866272::1795312652::1795313380::1::::<><><>0<>0<>07c3f82b040bbda1bf9a502c4359ffd2<>res://.godot/imported/wrist_blade.png-e9a4f0f81c7c1edefa1bafc3f34e13be.ctex::
 wrist_blade_outline.png::CompressedTexture2D::3022133918536056372::1795312716::1795313380::1::::<><><>0<>0<>21240441efa3ecb751d2dda97f726f49<>res://.godot/imported/wrist_blade_outline.png-abe518e34149bc6477b1ad141c54bf59.ctex::
-::res://AlecsAA/images/relics/big/::1795316012
+::res://AlecsAA/images/relics/big/::1795326523
 champion_belt.png::CompressedTexture2D::730821255954981992::1795312785::1795313380::1::::<><><>0<>0<>d2de48a7ad891094620252ca8cc4c58b<>res://.godot/imported/champion_belt.png-4075f5c04ee7231275be712fe26117bf.ctex::
+death_whistle(stillsmall).png::CompressedTexture2D::110686755066969439::1795315916::1795326902::1::::<><><>0<>0<>f5839fd10a943193f48d7304208937c6<>res://.godot/imported/death_whistle(stillsmall).png-4aa9327b697121d681627f9e9d3876f6.ctex::
 death_whistle(toosmall).png::CompressedTexture2D::3174528162567774327::1795312780::1795316012::1::::<><><>0<>0<>6fd24b66a3cdd69827bde187089f31ea<>res://.godot/imported/death_whistle(toosmall).png-cdcb7e5260970b217761333514672a13.ctex::
-death_whistle.png::CompressedTexture2D::110686755066969439::1795315916::1795316012::1::::<><><>0<>0<>013d9e26fe4a04f2625bd56479ac536e<>res://.godot/imported/death_whistle.png-1679979f2fbdedd4b6be533784b69bd7.ctex::
+death_whistle.png::CompressedTexture2D::398852092595395563::1795326431::1795326902::1::::<><><>0<>0<>ff4a2d3b1c0e3ef18164aea0e1e28b34<>res://.godot/imported/death_whistle.png-1679979f2fbdedd4b6be533784b69bd7.ctex::
 duvu_doll.png::CompressedTexture2D::9031453217928477794::1795312775::1795313380::1::::<><><>0<>0<>7de0396019f83a28591cc540924ff74c<>res://.godot/imported/duvu_doll.png-fb85ec19573078415382eaea7e96dfab.ctex::
 matryoshka.png::CompressedTexture2D::390752514631448906::1795312769::1795313380::1::::<><><>0<>0<>707c6876cb0c129305403e679e2007c6<>res://.godot/imported/matryoshka.png-117eeca634c093904457441709b632f2.ctex::
 relic.png::CompressedTexture2D::1823899220164261960::1789076470::1789078217::1::::<><><>0<>0<>6f2c6fc097848416dc5ca463221e1028<>res://.godot/imported/relic.png-75f4ea1690665901b5616f80d2be36a2.ctex::
@@ -127,5 +130,5 @@ WristBlade.cs::CSharpScript::8225408944434681561::1795143717::0::1::::<><><>0<>0
 ::res://bin/::1789078209
 ::res://bin/ExportRelease/::1789078209
 ::res://bin/ExportRelease/net9.0/::1789078209
-::res://bin/ExportRelease/net9.0/publish/::1795317266
+::res://bin/ExportRelease/net9.0/publish/::1795326899
 AlecsAA.deps.json::JSON::-1::1795313377::0::1::::<><><>0<>0<><>::
