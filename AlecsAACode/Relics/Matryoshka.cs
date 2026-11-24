@@ -38,9 +38,8 @@ public class Matryoshka() : AlecsAARelic
         }
     }
     
-    // Long-term, I will make this relic compatible with multiplayer.
-    // Additional relics will appear in treasure chests for each person with this relic. If one person has it, the extra
-    // will just go to them. If multiple people do, they will have a second round to vote on what they want.
+    // Eventually, I will make this relic compatible with multiplayer. Additional relics will appear in treasure chests
+    // for each person with Matryoshka, and there will have a second voting round for them to choose.
     protected override bool IsAllowedInternal(IRunState runState)
     {
         return runState.Players.Count == 1;
