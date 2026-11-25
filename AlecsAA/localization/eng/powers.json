@@ -1,5 +1,6 @@
 {
-  "ALECSAA-TEMPERED_GLASS_POWER.description" : "Glass does not lose damage at or below [blue]2[/blue]",
-  "ALECSAA-TEMPERED_GLASS_POWER.smartDescription" : "Glass does not lose damage at or below [blue]{Amount}[/blue]",
-  "ALECSAA-TEMPERED_GLASS_POWER.title" : "Tempered Glass"
+  "ALECSAA-RETROGRADE_POWER.description" : "At the start of your turn, draw a card and put a card from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].",
+  "ALECSAA-RETROGRADE_POWER.selectionScreenPrompt": "Choose Cards to put on top of your Draw Pile",
+  "ALECSAA-RETROGRADE_POWER.smartDescription" : "At the start of your turn, draw {Amount:plural:[blue]{}[/blue] card|[blue]{}[/blue] cards} and put {Amount:plural:[blue]{}[/blue] card|[blue]{}[/blue] cards} from your [gold]Hand[/gold] on top of your [gold]Draw Pile[/gold].",
+  "ALECSAA-RETROGRADE_POWER.title" : "Retrograde"
 }
