@@ -68,11 +68,12 @@ solar_panel.png::CompressedTexture2D::6352044095667123423::1795399718::179539972
 volatile_memory.png::CompressedTexture2D::6786581637529803804::1795399718::1795399728::1::::<><><>0<>0<>4bd37a4625c7af6436cc795dfd43d5b2<>res://.godot/imported/volatile_memory.png-0e2f3e075874eb0bb992a52f67d54ea0.ctex::
 wrist_blade.png::CompressedTexture2D::383068933750412151::1795399718::1795480523::1::::<><><>0<>0<>0908944adc349a38c406e0b7a894f2e2<>res://.godot/imported/wrist_blade.png-bcddc9b742e54d22f7cd4ea22f688f88.ctex::
 ::res://AlecsAA/localization/::1795399454
-::res://AlecsAA/localization/eng/::1795542342
+::res://AlecsAA/localization/eng/::1795546561
 ancients.json::JSON::-1::1795399454::0::1::::<><><>0<>0<><>::
 cards.json::JSON::-1::1795533396::0::1::::<><><>0<>0<><>::
 card_keywords.json::JSON::-1::1795399454::0::1::::<><><>0<>0<><>::
 enchantments.json::JSON::-1::1795399717::0::1::::<><><>0<>0<><>::
+events.json::JSON::-1::1795546561::0::1::::<><><>0<>0<><>::
 powers.json::JSON::-1::1795542342::0::1::::<><><>0<>0<><>::
 relics.json::JSON::-1::1795399718::0::1::::<><><>0<>0<><>::
 static_hover_tips.json::JSON::-1::1795399454::0::1::::<><><>0<>0<><>::
@@ -108,10 +109,10 @@ Underhanded.cs::CSharpScript::3546471125673798610::1795399717::0::1::::<><><>0<>
 StringExtensions.cs::CSharpScript::1803330723664196512::1795399599::0::1::::<><><>0<>0<><>::
 ::res://AlecsAACode/Other/::1795399717
 CustomEnums.cs::CSharpScript::6977240564874536761::1795399454::0::1::::<><><>0<>0<><>::
-::res://AlecsAACode/Other/Patches/::1795483394
+::res://AlecsAACode/Other/Patches/::1795840569
 ClawBuffPatch.cs::CSharpScript::5228976637932260519::1795399454::0::1::::<><><>0<>0<><>::
 ClawTagPatch.cs::CSharpScript::7650900631754522467::1795399454::0::1::::<><><>0<>0<><>::
-MatryoshkaPatches.cs::CSharpScript::2087455695484140868::1795483394::0::1::::<><><>0<>0<><>::
+MatryoshkaPatches.cs::CSharpScript::2087455695484140868::1795840569::0::1::::<><><>0<>0<><>::
 StarPoweredConversionPatches.cs::CSharpScript::7862090618216694605::1795399600::0::1::::<><><>0<>0<><>::
 ::res://AlecsAACode/Powers/::1795537917
 AlecsAAPower.cs::CSharpScript::6658864470238260357::1795399454::0::1::::<><><>0<>0<><>::
@@ -128,5 +129,5 @@ WristBlade.cs::CSharpScript::8225408944434681561::1795399600::0::1::::<><><>0<>0
 ::res://bin/::1789078209
 ::res://bin/ExportRelease/::1789078209
 ::res://bin/ExportRelease/net9.0/::1789078209
-::res://bin/ExportRelease/net9.0/publish/::1795542359
+::res://bin/ExportRelease/net9.0/publish/::1795840587
 AlecsAA.deps.json::JSON::-1::1795480519::0::1::::<><><>0<>0<><>::
